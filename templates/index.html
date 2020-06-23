@@ -1,0 +1,24 @@
+<!doctype html>
+<title> Stock Price </title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class=page>
+  <h1>STOCK PRICE PLOT </h1>
+  <div>
+    <h3>
+      Please privider ticker name and select a value from the options listed.
+    </h3>
+  </div>
+  <div class=metanav>
+    <form id='index.html' method='get' action='index' >
+      <p>
+    Ticker Code: <input type='text' name='ticker' />
+      </p>
+      <p>
+    Value: <input type='text' name='column' />
+      </p>
+      <p>
+    <input type='submit' value='Submit' />
+      </p>
+    </form>
+  </div>
+</div>
